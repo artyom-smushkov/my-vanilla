@@ -32,6 +32,7 @@ stages:
       - docker.io
       - emacs
       - podman-compose
+      - git
 
   # Put your custom actions before this comment
 
