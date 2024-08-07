@@ -13,8 +13,6 @@ stages:
   runs:
     commands:
       - echo 'APT::Install-Recommends "1";' > /etc/apt/apt.conf.d/01norecommends
-      - touch /etc/test
-      - touch /usr/test
 
   modules:
   - name: init-setup
@@ -35,6 +33,7 @@ stages:
       - podman-compose
       - git
       - distrobox
+      - sddm
 
   # Put your custom actions before this comment
 
