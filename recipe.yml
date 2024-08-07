@@ -13,7 +13,8 @@ stages:
   runs:
     commands:
       - echo 'APT::Install-Recommends "1";' > /etc/apt/apt.conf.d/01norecommends
-      - groupadd -g 468 docker
+      - touch /etc/test
+      - touch /usr/test
 
   modules:
   - name: init-setup
