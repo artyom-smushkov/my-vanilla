@@ -33,7 +33,6 @@ stages:
       - podman-compose
       - git
       - distrobox
-      - sddm
 
   # Put your custom actions before this comment
 
