@@ -27,8 +27,6 @@ stages:
     type: apt
     source:
       packages:
-      - docker-compose
-      - docker.io
       - emacs
       - podman-compose
       - git
